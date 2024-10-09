@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("GOTG3.png");
+    background-color: #332d2d;
+    background-size: 1920px 1440px;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    font-family: 'Bebas Neue';
+    z-index: -1;
+}
+
+header{
+    display: flex;
+}
+
+.logoHead{
+    display: flex;
+    justify-content: start;
+    z-index: 100;
+    height: 130px;
+    padding-left: 3rem;
+}
+
+div a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+div a:hover {
+    color: #63a661;
+    transition: 0.7s;
+    opacity:1;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.login{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    background-color: rgba(9, 9, 9, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 2rem;
+    color: #aaa;
+    
+}
+
+form{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: #63a661;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.inputName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputPass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63a661;
+    color: white;
+    font-size: 30px;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.submit:hover{
+    background-color: #164a02;
+}
+
+.inputFill input{
+    color: #000000;
+    border-radius: 0.5rem;
+    line-height: 40px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 100px;
+    border: none;
+    margin-top: 1rem;
+}
+
+
+
+.signInBox label{
+    font-size: 23px;
+}
+
+.signUp{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.signUp .question{
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+}
+.signUp .create{
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+    color: #63a661;
+    margin: 5px 20px 20px 20px;
+}
+
+.formBox h4{
+    font-size: 20px;
+}
+
+.containKids{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.containKids h1{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+footer{
+    width: 100%;
+    margin-top: 141px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    
+}
+
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 2.6rem; */
+}
+
+.social > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+
+.social > a:hover{
+    color: #63a661;
+    transition: 0.7s;
+    opacity:0.9;
+}
+.footerItem{
+    width: 33%;
+    color: #aaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItem .item{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerItem p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoFoot{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@media (max-width:768px){
+
+    .logoHead{
+        font-size: 15px;
+    }
+    .taskFont{
+        font-size: 25px;
+    }
+    .containKids h1{
+        font-size: 60px;
+    }
+
+    .kids{
+        height: 350px;
+    }
+
+    .kidsInfo{
+        font-size: 25px;
+        
+    }
+
+    .kidsImg img{
+        width: 90%; 
+    }
+
+    .formBox h4{
+        font-size: 17px;
+    }
+
+    .footerItem h4{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:568px){
+
+    .logoHead{
+        font-size: 11px;
+    }
+    .taskFont{
+        font-size: 20px;
+    }
+
+    .formBox{
+        height: 400px;
+        width: 400px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .sub{
+        font-size: 20px;
+    }
+
+    .inputFill input{
+        line-height: 40px;
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-right: 100px;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .signUp .question{
+        font-size: 15px;
+
+    }
+    .signUp .create{
+        font-size: 25px;
+    }
+
+    .containKids h1{
+        font-size: 50px;
+    }
+
+    .kids{
+        height: 300px;
+    }
+
+    .kidsInfo{
+        font-size: 20px;
+        
+    }
+
+    .kidsImg img{
+        width: 90%; 
+    }
+
+    .formBox h4{
+        font-size: 17px;
+    }
+
+    .footerItem h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:425px){
+
+    .logoHead{
+        font-size: 8px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .formBox{
+        height: 300px;
+        width: 300px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .sub{
+        font-size: 15px;
+    }
+
+    .inputFill input{
+        line-height: 40px;
+        font-size: 0.75rem;
+        padding-left: 10px;
+        padding-right: 100px;
+        border: none;
+        margin-top: 1rem;
+    }
+    
+    .containKids h1{
+        font-size: 40px;
+    }
+
+    .kids{
+        height: 225px;
+    }
+
+    .kidsInfo{
+        font-size: 15px;
+        
+    }
+
+    .kidsImg img{
+        width: 90%; 
+    }
+
+    .signUp .question{
+        font-size: 13px;
+
+    }
+    .signUp .create{
+
+        font-size: 20px;
+    }
+
+    .formBox h4{
+        font-size: 15px;
+    }
+
+
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .logoHead{
+        font-size: 6px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .formBox{
+        height: 275px;
+        width: 275px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .sub{
+        font-size: 15px;
+    }
+
+    .inputFill input{
+        line-height: 40px;
+        font-size: 0.6rem;
+        padding-left: 10px;
+        padding-right: 100px;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    .containKids h1{
+        font-size: 40px;
+    }
+
+    .kids{
+        height: 200px;
+    }
+
+    .kidsInfo{
+        font-size: 13px;
+        
+    }
+
+    .kidsImg img{
+        width: 90%; 
+    }
+
+    .signUp .question{
+        font-size: 10px;
+
+    }
+    .signUp .create{
+
+        font-size: 15px;
+    }
+
+    .formBox h4{
+        font-size: 13px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+

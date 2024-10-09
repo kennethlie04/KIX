@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1c1c1c;
+    font-family: 'Bebas Neue';
+    padding-top: 6.5rem;
+}
+
+header{
+    width: 100%;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: 0;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.logoHead{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+.taskFont{
+    margin-left: -100px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: #aaa;
+    font-size: 36px;
+}
+
+.Login{
+    text-align: right;
+    margin-left: 1000px;
+}
+
+
+.taskFont a{
+    padding-right: 2rem;
+}
+
+
+div a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+div a:hover {
+    color: #63a661;
+    transition: 0.7s;
+    opacity: 1;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+
+}
+
+.content h1{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    padding-left: 3rem;
+    
+}
+
+
+.detailBox{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+    flex-direction: column;
+    margin-bottom: 4rem;
+    
+    align-items: center;
+}
+
+.detail{
+    width: 80%;
+    display: flex;
+    background-color: rgba(107, 104, 110, 0.2);
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+ } 
+
+.detail .poster{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.detail .poster img{
+    width: 100%;
+    
+}
+
+
+.detail .description{
+    display: flex;
+    justify-content: start;
+    
+    width: 80%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.left .title{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    
+}
+
+.left .genre{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.left .synopsis{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+.right .cast{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1rem;
+
+}
+.right .creator{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.epsBox{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+    flex-direction: column;
+    margin-bottom: 4rem;
+    
+    align-items: center;
+}
+.episode{
+    width: 80%;
+    display: flex;
+    background-color: rgba(107, 104, 110, 0.2);
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 2rem;
+
+ } 
+
+
+
+
+.detailed{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.detailed .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+    margin-left: -60px;
+}
+.detailed .poster{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
+}
+.detailed .poster img{
+    display: flex;
+    width: 80%;
+    border-radius: 1rem;
+    /* height: 100%; */
+}
+.detailed .desc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.desc .titl{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 20%;
+}
+
+.desc .describe{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 80%;
+}
+
+.detailed .duration{
+    display: flex;
+    justify-content: start;
+    width: 20%;
+    height: 100%;
+}
+
+.detail h2{
+    color: white;
+    font-size: 50px;
+    
+}
+
+.detail h3{
+    color: white;
+    font-size: 25px;
+
+}
+
+.detail h4{
+    color: white;
+    font-size: 25px;
+
+}
+
+.detail h5{
+    color: #63a661;
+    font-size: 20px;
+
+}
+
+.episode h1{
+    color: #63a661;
+    font-size: 50px;
+}
+
+.episode h2{
+    color: white;
+    font-size: 50px;
+
+}
+
+.episode h3{
+    color: white;
+    font-size: 25px;
+}
+
+.episode h4{
+    color: white;
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    
+}
+
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+  
+.social > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+.footerItem{
+    width: 33%;
+    color: #aaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItem .item{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerItem p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.logoFoot{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+
+@media (max-width:768px){
+
+    .logoHead{
+        font-size: 15px;
+    }
+    .taskFont{
+        font-size: 25px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .detail .poster img{
+        width: 170%;
+    }
+
+    .detail h3{
+        font-size: 20px;
+    }
+
+    .detail h4{
+        font-size: 20px;
+    }
+
+    .episode h1{
+        font-size: 35px;
+    }
+    .episode h3{
+        font-size: 20px;
+    }
+
+    .episode h2{
+        font-size: 30px;
+    }
+
+    .episode h4{
+        font-size: 20px;
+    }
+
+    .episode .poster img{
+        width: 90%;
+    }
+
+    .footerItem h4{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:568px){
+
+    .logoHead{
+        font-size: 11px;
+    }
+    .taskFont{
+        font-size: 20px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .detail .poster img{
+        width: 170%;
+    }
+
+    .detail h2{
+        font-size: 30px;
+    }
+    .detail h5{
+        font-size: 17px;
+    }
+    .detail h3{
+        font-size: 15px;
+    }
+
+    .detail h4{
+        font-size: 15px;
+    }
+
+    .episode h1{
+        font-size: 25px;
+    }
+
+    .episode h2{
+        font-size: 25px;
+    }
+
+    .episode h3{
+        font-size: 15px;
+    }
+
+    .episode h4{
+        font-size: 15px;
+    }
+
+    .episode .poster img{
+        width: 90%;
+    }
+
+
+    .footerItem h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:375px){
+
+    .logoHead{
+        font-size: 8px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+ 
+    .detail .poster img{
+        width: 170%;
+    }
+
+    .detail h2{
+        font-size: 20px;
+    }
+    .detail h5{
+        font-size: 11px;
+    }
+    .detail h3{
+        font-size: 12px;
+    }
+
+    .detail h4{
+        font-size: 12px;
+    }
+
+    .episode h1{
+        font-size: 15px;
+    }
+    .episode h2{
+        font-size: 20px;
+    }
+
+    .episode h3{
+        font-size: 13px;
+    }
+
+    .episode h4{
+        font-size: 13px;
+    }
+
+    .episode .poster img{
+        width: 90%;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .logoHead{
+        font-size: 6px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .detail .poster img{
+        width: 170%;
+    }
+
+    .detail h2{
+        font-size: 15px;
+    }
+    .detail h5{
+        font-size: 9px;
+    }
+    .detail h3{
+        font-size: 10px;
+    }
+
+    .detail h4{
+        font-size: 10px;
+    }
+
+    .episode h1{
+        font-size: 13px;
+    }
+    .episode h2{
+        font-size: 15px;
+    }
+
+    .episode h3{
+        font-size: 10px;
+    }
+
+    .episode h4{
+        font-size: 10px;
+    }
+
+    .episode .poster img{
+        width: 90%;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+         font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
