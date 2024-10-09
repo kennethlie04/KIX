@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:  #1c1c1c;
+    font-family: 'Bebas Neue';
+    padding-top: 4.5rem;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: 0;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.logoHead{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+.taskFont{
+    margin-left: -100px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: #aaa;
+    font-size: 36px;
+}
+
+.login{
+    text-align: right;
+    margin-left: 1000px;
+}
+
+
+
+.taskFont a{
+    padding-right: 2rem;
+}
+
+
+div a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.7;
+}
+
+div a:hover {
+    color: #63a661;
+    transition: 0.7s;
+    opacity:1;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+
+}
+
+.content h4{
+    display: flex;
+    color: white;
+    
+    /* font-size: 100px; */
+    padding-bottom: 2rem;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    color: white;
+    background-image: url(/MoviePage/GOTG3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+    /* justify-content: center; */
+}
+
+
+
+.topMovie{
+    width: 80%;
+
+    height: 40rem;
+    /* height: 100%; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    flex-direction: column;
+}
+
+.topMovie .title{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+}
+.topMovie .desc{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+}
+.topMovie .but{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.topMovie .detail{
+    display: flex;
+}
+
+.topMovie .play{
+    display: flex;
+    margin-right: 1rem;
+}
+
+.topMovie h3{
+    font-size: 50px;
+}
+
+.topMovie h2{
+    font-size: 30px;
+}
+
+.topMovie .play button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(82, 77, 77);
+        color: white;
+        font-size: 30px;
+        border-radius: 1rem;
+        padding: 1rem;
+        border: none;        
+}
+
+.topMovie .detail button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(82, 77, 77);
+        color: white;
+        font-size: 30px;
+        border-radius: 1rem;
+        padding: 1rem;
+        border: none;        
+}
+
+.topMovie button:hover{
+    background-color: #63a661;
+    transition: 0.3s;
+}
+
+
+
+.category{ 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+}
+
+.category h4{
+    font-size: 50px;
+    display: flex;
+    width: 90%;
+    margin-left: 130px;
+    color: #63a661;
+    
+}
+
+.movBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 3rem;
+}
+.actionMovie{
+    width: 90%;
+    display: flex;
+    border-radius: 2rem;
+
+}
+
+
+.actionMovie .mov1{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+.actionMovie .mov2{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.actionMovie .mov3{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.actionMovie .mov4{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.actionMovie .mov5{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+
+.movBox2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 3rem;
+}
+
+.crimeMovie{
+    width: 90%;
+    display: flex;
+    
+    border-radius: 2rem;
+
+}
+
+.crimeMovie .mov1{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+}
+.crimeMovie .mov2{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.crimeMovie .mov3{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.crimeMovie .mov4{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.crimeMovie .mov5{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+
+.movBox3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 3rem;
+}
+
+.comedyMovie{
+    width: 90%;
+    display: flex;
+    
+    border-radius: 2rem;
+    
+    
+}
+
+.comedyMovie .mov1{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+}
+.comedyMovie .mov2{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.comedyMovie .mov3{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.comedyMovie .mov4{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.comedyMovie .mov5{
+    display: flex;
+    justify-content: center;
+
+    width:20%;
+    height: 100%;
+}
+
+.movBox4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-bottom: 3rem;
+}
+
+.fantasyMovie{
+    width: 90%;
+    display: flex;
+
+    border-radius: 2rem;
+
+}
+
+.fantasyMovie .mov1{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+}
+.fantasyMovie .mov2{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.fantasyMovie .mov3{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.fantasyMovie .mov4{
+    display: flex;
+    justify-content: center;
+
+    width: 20%;
+    height: 100%;
+
+}
+.fantasyMovie .mov5{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+
+}
+
+.category img{
+    width: 80%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    
+}
+
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.social > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+
+.social>a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+.footerItem{
+    width: 33%;
+    color: #aaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItem .item{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerItem p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.logoFoot{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+
+@media (max-width:768px){
+
+    .logoHead{
+        font-size: 15px;
+    }
+    .taskFont{
+        font-size: 25px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+    .topMovie .title{
+        text-align: center;
+        justify-content: center;
+    }
+    .topMovie .desc{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .topMovie .desc h2{
+        font-size: 27px;
+    }
+
+    .topMovie .but{
+        justify-content: center;
+    }
+
+    .category h4{
+        font-size: 30px;
+    }
+
+    .footerItem h4{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:568px){
+
+    .logoHead{
+        font-size: 11px;
+    }
+    .taskFont{
+        font-size: 20px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+    .topMovie .title{
+        text-align: center;
+        justify-content: center;
+    }
+    .topMovie .desc{
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .topMovie .desc h2{
+        font-size: 25px;
+    }
+    
+
+    .topMovie .but{
+        justify-content: center;
+    }
+
+    .topMovie .play button{
+        font-size: 20px;
+    }
+
+    .topMovie .detail button{
+        font-size: 20px;
+    }
+
+    .category h4{
+        font-size: 30px;
+    }
+
+    .footerItem h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:375px){
+
+    .logoHead{
+        font-size: 8px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+    .topMovie .title{
+        text-align: center;
+        justify-content: center;
+    }
+    .topMovie .desc{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .topMovie .desc h2{
+        font-size: 20px;
+    }
+    
+
+    .topMovie .but{
+        justify-content: center;
+    }
+    
+    .topMovie .play button{
+        font-size: 15px;
+    }
+
+    .topMovie .detail button{
+        font-size: 15px;
+    }
+
+    .category h4{
+        font-size: 25px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .logoHead{
+        font-size: 6px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+    .topMovie .title{
+        text-align: center;
+        justify-content: center;
+    }
+    .topMovie .desc{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .topMovie .desc h2{
+        font-size: 20px;
+    }
+    
+
+    .topMovie .but{
+        justify-content: center;
+   }
+    
+    .topMovie .play button{
+        font-size: 15px;
+    }
+
+    .topMovie .detail button{
+        font-size: 15px;
+    }
+
+    .category h4{
+        font-size: 25px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+         font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}

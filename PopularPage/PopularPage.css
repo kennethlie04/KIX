@@ -1,0 +1,1155 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1c1c1c;
+    font-family: 'Bebas Neue';
+    padding-top: 6.5rem;
+    
+}
+
+header{
+    width: 100%;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: 0;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.logoHead{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+.taskFont{
+    margin-left: -100px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: #aaa;
+    font-size: 36px;
+}
+
+.login{
+    text-align: right;
+    margin-left: 1000px;
+}
+
+
+.taskFont a{
+    padding-right: 2rem;
+}
+
+
+div a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+div a:hover {
+    color: #63a661;
+    transition: 0.7s;
+    opacity:1;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    width: 80%;
+    margin: auto;    
+    margin-bottom: 3rem;
+}
+
+.topBox{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.top1{
+    width: 90%;
+    display: flex;
+    background-color: rgba(62, 58, 58, 0.5);
+    border-radius: 2rem; 
+ } 
+
+.top1 .poster{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: start;
+}
+
+.top1 .poster img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.top1 .detail{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.top1 .title{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 50px;
+    width: 100%;
+    height: 25%;
+}
+
+.top1 .titl{
+    width: 95%;
+    display: flex;
+    height: 100%;
+}
+
+.top1 .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+}
+
+
+.top1 .cast{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top1 .genre{
+    display: flex;
+
+    width: 100%;
+    height: 25%;
+
+}
+
+.top1 .icon{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+.top1 .icon > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+
+}
+
+  
+.top1 .icon > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+
+.topBox2{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.top2{
+    width: 90%;
+    display: flex;
+    background-color: rgba(62, 58, 58, 0.5);
+    border-radius: 2rem; 
+ } 
+
+.top2 .poster{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: start;
+}
+.top2 .poster img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.top2 .detail{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.top2 .title{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 50px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top2 .titl{
+    width: 95%;
+    display: flex;
+    height: 100%;
+}
+
+.top2 .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+}
+
+.top2 .cast{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top2 .genre{
+    display: flex;
+
+    width: 100%;
+    height: 25%;
+
+}
+
+.top2 .icon{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+.top2 .icon > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+
+}
+  
+.top2 .icon > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+
+.topBox3{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.top3{
+    width: 90%;
+    display: flex;
+    background-color: rgba(62, 58, 58, 0.5);
+    border-radius: 2rem; 
+ } 
+
+.top3 .poster{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: start;
+}
+
+.top3 .poster img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.top3 .detail{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.top3 .title{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 50px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top3 .titl{
+    width: 95%;
+    display: flex;
+    height: 100%;
+}
+
+.top3 .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+}
+
+.top3 .cast{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top3 .genre{
+    display: flex;
+
+    width: 100%;
+    height: 25%;
+
+}
+
+.top3 .icon{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+.top3 .icon > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+
+}
+
+.top3 .icon > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+
+
+.topBox4{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.top4{
+    width: 90%;
+
+    display: flex;
+    background-color: rgba(62, 58, 58, 0.5);
+    border-radius: 2rem; 
+ } 
+
+.top4 .poster{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: start;
+}
+
+.top4 .poster img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.top4 .detail{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.top4 .title{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 50px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top4 .titl{
+    width: 95%;
+    display: flex;
+    height: 100%;
+}
+
+.top4 .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+}
+
+.top4 .cast{
+    display: flex;
+    font-size: 70px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top4 .genre{
+    display: flex;
+
+    width: 100%;
+    height: 25%;
+
+}
+
+.top4 .icon{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+.top4 .icon > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+
+}
+  
+.top4 .icon > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+
+
+.topBox5{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.top5{
+    width: 90%;
+    display: flex;
+    background-color: rgba(62, 58, 58, 0.5);
+    border-radius: 2rem; 
+ } 
+
+.top5 .poster{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: start;
+}
+
+.top5 .poster img{
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.top5 .detail{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.top5 .title{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 50px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top5 .titl{
+    width: 95%;
+    display: flex;
+    height: 100%;
+}
+
+.top5 .number{
+    display: flex;
+    width: 5%;
+    height: 100%;
+}
+
+.top5 .cast{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    height: 25%;
+
+}
+
+.top5 .genre{
+    display: flex;
+
+    width: 100%;
+    height: 25%;
+
+}
+
+.top5 .icon{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+.top5 .icon > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+  
+.top5 .icon > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+
+
+h2{
+    color: white;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.content p{
+    color: white;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    
+}
+
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 2.6rem; */
+}
+
+.social > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+  
+.social > a:hover{
+    color: #63a661;
+    opacity:0.9;
+}
+.footerItem{
+    width: 33%;
+    color: #aaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItem .item{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerItem p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.logoFoot{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width:768px){
+
+    .logoHead{
+        font-size: 15px;
+    }
+    .taskFont{
+        font-size: 25px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .top1 .title h2{
+        font-size: 30px;
+    }
+
+    .top1 .title p{
+        font-size: 40px;
+    }
+
+    .top1 .cast h3{
+        font-size: 20px;
+    }
+    .top1 .genre h4{
+        font-size: 17px;
+    }
+    .top2 .title h2{
+        font-size: 30px;
+    }
+
+    .top2 .title p{
+        font-size: 40px;
+    }
+
+    .top2 .cast h3{
+        font-size: 20px;
+    }
+    .top2 .genre h4{
+        font-size: 17px;
+    }
+    .top3 .title h2{
+        font-size: 30px;
+    }
+
+    .top3 .title p{
+        font-size: 40px;
+    }
+
+    .top3 .cast h3{
+        font-size: 20px;
+    }
+    .top3 .genre h4{
+        font-size: 17px;
+    }
+    .top4 .title h2{
+        font-size: 30px;
+    }
+
+    .top4 .title p{
+        font-size: 40px;
+    }
+
+    .top4 .cast h3{
+        font-size: 20px;
+    }
+    .top4 .genre h4{
+        font-size: 17px;
+    }
+    .top5 .title h2{
+        font-size: 30px;
+    }
+
+    .top5 .title p{
+        font-size: 40px;
+    }
+
+    .top5 .cast h3{
+        font-size: 20px;
+    }
+    .top5 .genre h4{
+        font-size: 17px;
+    }
+
+    .footerItem h4{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:568px){
+
+    .logoHead{
+        font-size: 11px;
+    }
+    .taskFont{
+        font-size: 20px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .top1 .title h2{
+        font-size: 25px;
+    }
+
+    .top1 .title p{
+        font-size: 30px;
+    }
+
+    .top1 .cast h3{
+        font-size: 15px;
+    }
+    .top1 .genre h4{
+        font-size: 15px;
+    }
+    .top2 .title h2{
+        font-size: 25px;
+    }
+
+    .top2 .title p{
+        font-size: 30px;
+    }
+
+    .top2 .cast h3{
+        font-size: 15px;
+    }
+    .top2 .genre h4{
+        font-size: 15px;
+    }
+    .top3 .title h2{
+        font-size: 25px;
+    }
+
+    .top3 .title p{
+        font-size: 30px;
+    }
+
+    .top3 .cast h3{
+        font-size: 15px;
+    }
+    .top3 .genre h4{
+        font-size: 15px;
+    }
+    .top4 .title h2{
+        font-size: 25px;
+    }
+
+    .top4 .title p{
+        font-size: 30px;
+    }
+
+    .top4 .cast h3{
+        font-size: 15px;
+    }
+    .top4 .genre h4{
+        font-size: 15px;
+    }
+    .top5 .title h2{
+        font-size: 25px;
+    }
+
+    .top5 .title p{
+        font-size: 30px;
+    }
+
+    .top5 .cast h3{
+        font-size: 15px;
+    }
+    .top5 .genre h4{
+        font-size: 15px;
+    }
+
+    .top1 .icon > a{
+        font-size:14px;
+        width:20px;
+        height:20px;
+        line-height:20px;
+    }
+    .top2 .icon > a{
+        font-size:14px;
+        width:20px;
+        height:20px;
+        line-height:20px;
+    }
+    .top3 .icon > a{
+        font-size:14px;
+        width:20px;
+        height:20px;
+        line-height:20px;
+    }
+    .top4 .icon > a{
+        font-size:14px;
+        width:20px;
+        height:20px;
+        line-height:20px;
+    }
+    .top5 .icon > a{
+        font-size:14px;
+        width:20px;
+        height:20px;
+        line-height:20px;
+    }
+
+    .footerItem h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:375px){
+
+    .logoHead{
+        font-size: 8px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+ 
+    .top1 .title h2{
+        font-size: 20px;
+    }
+
+    .top1 .title p{
+        font-size: 20px;
+    }
+
+    .top1 .cast h3{
+        font-size: 10px;
+    }
+    .top1 .genre h4{
+        font-size: 10px;
+    }
+    .top2 .title h2{
+        font-size: 20px;
+    }
+
+    .top2 .title p{
+        font-size: 20px;
+    }
+
+    .top2 .cast h3{
+        font-size: 10px;
+    }
+    .top2 .genre h4{
+        font-size: 10px;
+    }
+    .top3 .title h2{
+        font-size: 20px;
+    }
+
+    .top3 .title p{
+        font-size: 20px;
+    }
+
+    .top3 .cast h3{
+        font-size: 10px;
+    }
+    .top3 .genre h4{
+        font-size: 10px;
+    }
+    .top4 .title h2{
+        font-size: 20px;
+    }
+
+    .top4 .title p{
+        font-size: 20px;
+    }
+
+    .top4 .cast h3{
+        font-size: 10px;
+    }
+    .top4 .genre h4{
+        font-size: 10px;
+    }
+    .top5 .title h2{
+        font-size: 20px;
+    }
+
+    .top5 .title p{
+        font-size: 20px;
+    }
+
+    .top5 .cast h3{
+        font-size: 10px;
+    }
+    .top5 .genre h4{
+        font-size: 10px;
+    }
+
+    .top1 .icon > a{
+        font-size:12px;
+        width:15px;
+        height:15px;
+        line-height:15px;
+    }
+    .top2 .icon > a{
+        font-size:12px;
+        width:15px;
+        height:15px;
+        line-height:15px;
+    }
+    .top3 .icon > a{
+        font-size:12px;
+        width:15px;
+        height:15px;
+        line-height:15px;
+    }
+    .top4 .icon > a{
+        font-size:12px;
+        width:15px;
+        height:15px;
+        line-height:15px;
+    }
+    .top5 .icon > a{
+        font-size:12px;
+        width:15px;
+        height:15px;
+        line-height:15px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .logoHead{
+        font-size: 6px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .top1 .title h2{
+        font-size: 15px;
+    }
+
+    .top1 .title p{
+        font-size: 15px;
+    }
+
+    .top1 .cast h3{
+        font-size: 7px;
+    }
+    .top1 .genre h4{
+        font-size: 7px;
+    }
+    .top2 .title h2{
+        font-size: 15px;
+    }
+
+    .top2 .title p{
+        font-size: 15px;
+    }
+
+    .top2 .cast h3{
+        font-size: 7px;
+    }
+    .top2 .genre h4{
+        font-size: 7px;
+    }
+    .top3 .title h2{
+        font-size: 15px;
+    }
+
+    .top3 .title p{
+        font-size: 15px;
+    }
+
+    .top3 .cast h3{
+        font-size: 7px;
+    }
+    .top3 .genre h4{
+        font-size: 7px;
+    }
+    .top4 .title h2{
+        font-size: 15px;
+    }
+
+    .top4 .title p{
+        font-size: 15px;
+    }
+
+    .top4 .cast h3{
+        font-size: 7px;
+    }
+    .top4 .genre h4{
+        font-size: 7px;
+    }
+    .top5 .title h2{
+        font-size: 14px;
+    }
+
+    .top5 .title p{
+        font-size: 15px;
+    }
+
+    .top5 .cast h3{
+        font-size: 7px;
+    }
+    .top5 .genre h4{
+        font-size: 7px;
+    }
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+         font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}

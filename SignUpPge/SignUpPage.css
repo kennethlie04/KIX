@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1c1c1c;
+    font-family: 'Bebas Neue';
+    
+}
+
+header{
+    display: flex;
+}
+
+.logoHead{
+    display: flex;
+    justify-content: start;
+    height: 130px;
+    padding-left: 3rem;
+
+}
+
+.signUp{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox{
+    background-color: #221f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 2rem;
+    color: #aaa;
+    
+
+}
+
+.title{
+    color: #63a661;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+
+.inputName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputPass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputConPass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+.inputAge{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 0.5rem;
+    
+}
+
+.inputAge input{
+    border-radius: 0.5rem;
+    line-height: 30px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border: none;
+    margin-left: 1rem;
+}
+
+
+.inputGender{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 0.5rem;
+    font-size: 23px;
+}
+
+.male{
+    padding-right: 2rem;
+}
+
+.agreeBox{
+    display: flex;
+    justify-content: start;
+    font-size: 23px;
+    
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63a661;
+    color: white;
+    font-size: 30px;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.submit:hover{
+    background-color: #164a02;
+}
+
+
+.inputFill input{
+    color: #000000;
+    border-radius: 0.5rem;
+    line-height: 40px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 100px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.signInBox label{
+    font-size: 23px;
+}
+
+.formBox h4{
+    font-size: 20px;
+}
+
+
+div a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+div a:hover {
+    color: #63a661;
+    transition: 0.7s;
+    opacity:1;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.social{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social > a{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #ccc;
+}
+  
+.social > a:hover{
+    color: #63a661
+    opacity:0.9;
+}
+.footerItem{
+    width: 33%;
+    color: #aaa;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerItem .item{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerItem p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.logoFoot{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+@media (max-width:768px){
+
+    .logoHead{
+        font-size: 15px;
+    }
+    .taskFont{
+        font-size: 25px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .formBox{
+        width: 500px;
+        height: 500px;
+    }
+
+    .footerItem h4{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:568px){
+
+    .logoHead{
+        font-size: 11px;
+    }
+    .taskFont{
+        font-size: 20px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .inputFill input{
+        font-size: 1rem;
+    }
+
+    .title{
+        font-size: 27px;
+    }
+
+    .inputAge{
+        font-size: 17px;
+    }
+    .inputAge input{
+        font-size: 0.8rem;
+    }
+    .inputGender{
+        font-size: 17px;
+    }
+    .agreeBox{
+        font-size: 17px;
+    }
+
+    .sub{
+        font-size: 20px;
+    }
+
+    .formBox h4{
+        font-size: 17px;
+    }
+    .footerItem h4{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logoFoot{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width:375px){
+
+    .logoHead{
+        font-size: 8px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .formBox{
+        width: 300px;
+        height: 400px;
+    }
+ 
+    .inputFill input{
+        font-size: 0.65rem;
+    }
+
+    .title{
+        font-size: 17px;
+        padding-bottom: 0;
+    }
+
+    .inputAge{
+        font-size: 14px;
+    }
+    .inputAge input{
+        font-size: 0.65rem;
+    }
+    .inputGender{
+        font-size: 14px;
+    }
+    .agreeBox{
+        font-size: 14px;
+    }
+
+    .sub{
+        font-size: 15px;
+        padding-top: 0;
+        
+    }
+
+    .formBox h4{
+        font-size: 14px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .logoHead{
+        font-size: 6px;
+    }
+    .taskFont{
+        font-size: 15px;
+    }
+    .content{
+        margin-bottom: 4rem;
+    }
+
+    .formBox{
+        width: 300px;
+        height: 350px;
+    }
+ 
+    .inputFill input{
+        font-size: 0.5rem;
+    }
+
+    .title{
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+
+    .inputAge{
+        font-size: 10px;
+    }
+    .inputAge input{
+        font-size: 0.5rem;
+    }
+    .inputGender{
+        font-size: 10px;
+    }
+    .agreeBox{
+        font-size: 10px;
+    }
+
+    .sub{
+        font-size: 13px;
+        padding-top: 0;
+        
+    }
+
+    .formBox h4{
+        font-size: 10px;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footerItem h4{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social > a{
+        width:30px;
+        height:30px;
+         font-size:12px;
+        line-height:30px;
+    }
+    .logoFoot{
+        font-size: 6px;
+    }
+    
+}

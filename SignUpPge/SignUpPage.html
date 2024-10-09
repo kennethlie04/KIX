@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SignUpPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logoHead">
+           <img src="/Icon Logo dll/kix.png" alt=""> 
+        </div>
+    </header>
+
+    <div class="signUp">
+        <div class="formBox">
+            <form action="" method="get" onsubmit="validateForm(event)" id="signUpForm">
+                <div class="title">
+                    <h1>Sign Up</h1>
+                </div>
+                <div class="inputFill">
+                    <div class="inputName">
+                        <input type="text" name="username" id="username" placeholder="Username">
+                    </div>
+                    <div class="inputPass">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="inputConPass">
+                        <input type="password" name="confirm" id="confirm" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="inputAge">
+                    <label for="age">Date of Birth</label>
+                    <input type="date" id="age" name="age">
+                </div>
+                <div class="inputGender">
+                    <div class="male">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="agreeBox">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">Agree to the Terms & Conditions</label>
+                </div>
+                <h4 id="error" style="color: rgb(255, 255, 255); text-align: center;"></h4>
+                <div class="submitButton">
+                    <button type="submit" class="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="social">
+            <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+           <div class="footerItem">
+                
+                <a href="#" class="item">Support</a>
+                <a href="#" class="item">FAQ</a>
+                
+                <h4>Copyright © 2023 JeTFlix. All Rights Reserved</h4>
+            </div>
+        <div class="logoFoot">
+            <img src="/Icon Logo dll/kix.png" width="200px" alt="">
+        </div>
+    </footer>
+
+</body>
+</html>
